@@ -1,3 +1,20 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\IndexController::index
+
+login:
+    path: /login
+    controller: App\Controller\LoginController::login
+
+signup:
+    path: /signup
+    controller: App\Controller\SignUpController::signup
+back:
+    path: /back
+    controller: App\Controller\BackController::back
+homepageuser:
+    path: /homepageuser
+    controller: App\Controller\HomePageUserController::homepageuser
+complaint:
+    path: /complaint
+    controller: App\Controller\ComplaintController::Complaint
